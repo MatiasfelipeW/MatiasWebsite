@@ -1,0 +1,123 @@
+
+
+ul {
+    list-style: none;
+}   
+
+a { 
+    text-decoration: none;
+}
+
+
+header nav ul {
+    display: flex;
+    margin: 20px;
+    gap: 2em;
+
+}
+
+.primernavegador
+{
+
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 10px;
+    background-color:   rgba(194, 190, 190, 0.993);
+
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid red;
+    margin:  50px 0; 
+}
+
+.segundo-plano {
+
+    background-color: rgb(194, 190, 190, 0.993);
+    
+}
+.segundo-plano h2 {
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase   ;
+}
+
+.segundo-plano p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imagenes-segundo-plano {
+display: flex;
+justify-content: center;
+}
+
+
+.lobster-regular, .segundo-plano, .primer-plano {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.carousel-container {
+display: flex;
+
+}
+.class { 
+    font-size: 16px;
+    color: red;
+}
+
+@media (maz-with:767px) {
+    .class { fomt: size 20px;
+    color: blue;}  
+}
+
+@media (min-width:768px) {
+    .class{
+        font-size: 40px;
+        color: black;   
+    }
+    
+}
+
+.primer-plano {
+    display: block;
+    padding: 4em;
+    margin: auto ;
+    width: 50%;
+    background-color:  rgb(194, 190, 190, 0.993);
+}
+#check {
+    display: none;
+}
+.checkbtn {
+    font-size: 25px;
+    color: rgb(185, 5, 5);
+    float: right;
+    line-height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.checkbtn{
+    display: block;
+}
+.primernavegador {
+    position: fixed;
+    text-align: center;
+}
+
+#check: :checked ~ ul {
+left: 0%; 
+display: block;
+}
+    
+
